@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="borrowPile">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="stackPile" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="4.56" />
+        <Point X="5.5" Y="7.195" />
+        <Point X="10.5" Y="7.195" />
+        <Point X="10.5" Y="8" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="1.964" Y="0.488" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAMAAAAAAAEAAEAAAAAAA=</HashCode>
+      <FileName>borrowPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="card">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="card::cardSuit">
+        <TypeIdentifier>
+          <NewMemberFileName>card.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="card::cardRank">
+        <TypeIdentifier>
+          <NewMemberFileName>card.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="card::cardColor">
+        <TypeIdentifier>
+          <NewMemberFileName>card.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAQQABAAAAAEAAAAAgAAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="deck">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAAAAAACAAgAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>deck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fannedPile">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="fannedPile::fanDirection">
+        <TypeIdentifier>
+          <NewMemberFileName>fannedPile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QQgAABAAAAAAAAAAAAMAGAAAAAAAQAAAEEACAQAAAAA=</HashCode>
+      <FileName>fannedPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="foundationPile">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAEAAAgAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>foundationPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game">
+    <Position X="18.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIgAAACBEAAAgAAAAKAEBAAAAAhBBAIAAAAAAAAIAo=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pile">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACCABAACJgAAAAQAApAGAASBAGAQQAAEEAAEAACAAA=</HashCode>
+      <FileName>pile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pileCard">
+    <Position X="3.25" Y="9" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="pileCard::cardOrientation">
+        <TypeIdentifier>
+          <NewMemberFileName>pileCard.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAKAAAAAAQJAAAAAABQAAgAAEAAgAABAAAA=</HashCode>
+      <FileName>pileCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="squaredPile">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAABAAAAAIAAAAAAIAGAAAAAAAQAAAEEAAAAAAAEA=</HashCode>
+      <FileName>squaredPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="stackPile">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAA=</HashCode>
+      <FileName>stackPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="stickyPile">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAJAAAAAAABAAAgAACAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>stickyPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="stockPile">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACAAAAAAAAAAACAAAAAAAAAAAEAQAAAACAAA=</HashCode>
+      <FileName>stockPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tableauPile">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAIAAAAAAAAAAAAAAABEAAAAAAAAAA=</HashCode>
+      <FileName>tableauPile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
